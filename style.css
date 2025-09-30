@@ -1,0 +1,99 @@
+* {
+    margin: 0 auto;
+
+    background: linear-gradient(135deg);
+}
+
+body {
+    background-image: url(fundodepokemon.png);
+}
+
+main {
+    width: 90%;
+    height: 600px;
+    /* background-color: chocolate; */
+}
+
+#a,
+#b,
+#c {
+    width: 33.33%;
+    height: 600px;
+    float: left;
+    box-shadow: 6px 6px 15px #282828;
+    border-radius: 15px;
+}
+
+#a {
+    background-color: #fde2b0;
+}
+
+#b {
+    background-color: #790165;
+}
+
+#c {
+    background-color: #884d24;
+}
+
+p {
+    padding: 2%;
+    text-align: center;
+    font-family: "Bitcount Single Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0,
+        "SZP1" 0,
+        "SZP2" 0,
+        "XPN1" 0,
+        "XPN2" 0,
+        "YPN1" 0,
+        "YPN2" 0;
+
+}
+
+h1 {
+    padding: 2%;
+}
+
+h2 {
+    padding: 2%;
+}
+
+img {
+    padding: 2%;
+    width: 96%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+a {
+    color: #f1faee;
+    line-height: 30px;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid #e2e2e2;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: rgb(255, 0, 0);
+    border-color: chocolate;
+}
+
+@media only screen and (max-width: 768px) {
+    #a, #b, #c { width: 100%; height: auto;}
+    .btn { margin-bottom: 20px;}
+    
+}
